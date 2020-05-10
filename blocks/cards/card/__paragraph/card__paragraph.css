@@ -1,0 +1,25 @@
+.card__paragraph {
+    max-width: 484px;
+    grid-area: gd;
+}
+
+@media screen and (max-width: 1024px) {
+    .card__paragraph {
+        max-width: 456px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card__paragraph {
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card__paragraph {
+        margin: 0 0 72px;
+        max-width: 288px;
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,30 @@
+@import url('../lead/__title/lead__title.css');
+@import url('../lead/__subtitle/lead__subtitle.css');
+@import url('../lead/__image/lead__image.css');
+@import url('../lead/__caption/lead__caption.css');
+
+.lead {
+    margin: auto;
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 320px;
+        height: 406px;
+    }
+}

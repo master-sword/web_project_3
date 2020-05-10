@@ -1,0 +1,16 @@
+.cover__text {
+    width: 320px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 320px) {
+    .cover__text {
+        margin: 0;
+        width: 288px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

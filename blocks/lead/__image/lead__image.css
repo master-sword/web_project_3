@@ -1,0 +1,31 @@
+.lead__image {
+    background-image: url('../../../images/lead-mountains.jpg');
+    margin-top: 64px;
+    width: 984px;
+    height: 615px;
+    background-size: contain;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        max-width: 928px;
+        height: 580px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        max-width: 768px;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image {
+        margin: 40px 0 0;
+        max-width: 320px;
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: 320px 200px;
+    }
+}

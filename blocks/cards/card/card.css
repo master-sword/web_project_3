@@ -1,0 +1,31 @@
+.card {
+    margin: auto auto 80px;
+    max-width: 984px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    column-gap: 10px;
+    grid-template-areas: "gt gu" "gi gd" "gi gd" "gi gd";
+}
+
+@media screen and (max-width: 1024px) {
+    .card {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        margin: 72px 24px 0;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card {
+        margin: 0 0 48px;
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+}

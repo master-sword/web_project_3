@@ -1,0 +1,13 @@
+@import url('./__item/cards__item.css');
+@import url('./card/card.css');
+@import url('./card/__title/card__title.css');
+@import url('./card/__image/card__images.css');
+@import url('./card/__url/card__url.css');
+@import url('./card/__heading-link/card__heading-link.css');
+@import url('./card/__link/card__link.css');
+@import url('./card/__description/card__description.css');
+
+.cards {
+    margin: 0;
+    padding: 0;
+}

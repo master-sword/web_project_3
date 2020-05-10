@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url('./inter-400.woff2') format('wolff2'),
+         url('./inter-400.woff') format('wolff');
+}
+
+@font-face {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    src: url('./inter-700.woff2') format('wolff2'),
+         url('./inter-700.woff') format('wolff');
+}
+
+@font-face {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    src: url('./inter-900.woff2') format('wolff2'),
+         url('./inter-900.woff') format('wolff');
+}

@@ -1,0 +1,30 @@
+.card__image {
+    margin: 0;
+    max-width: 460px;
+    height: 460px;
+    grid-area: gi;
+}
+
+@media screen and (max-width: 1024px) {
+    .card__image {
+        margin: 48px 0 0;
+        max-width: 440px;
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card__image {
+        margin: 0 0 72px;
+        max-width: 340px;
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card__image {
+        margin: 0 0 32px;
+        max-width: 320px;
+        height: 320px;
+    }
+}

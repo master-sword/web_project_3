@@ -1,0 +1,16 @@
+.card__link {
+    max-width: 456px;
+    height: 22px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.card__link:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
