@@ -1,4 +1,4 @@
-.card__description {
+.place__description {
     margin: 0;
     padding: 0 0 24px;
     max-width: 484px;
@@ -11,29 +11,29 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .card__description {
+    .place__description {
         max-width: 456px;       
         font-size: 18px;
         line-height: 30px;
     }
-    .card__description:nth-of-type(1) {
+    .place__description:nth-of-type(1) {
         margin: 48px 0 0;
     }
 }
 
  @media screen and (max-width: 768px) {   
-    .card__description {
+    .place__description {
         max-width: 352px;
         font-size: 16px;
         line-height: 26px;
     }
-    .card__description:nth-of-type(1) {
+    .place__description:nth-of-type(1) {
         margin: 0;
     }
 }
                                         
 @media screen and (max-width: 320px) {
-    .card__description {
+    .place__description {
         margin: 0 16px 0;
         max-width: 288px;
         text-align: left;
@@ -41,11 +41,11 @@
         line-height: 26px;
     }
 
-    .card__description:nth-of-type(1) {
+    .place__description:nth-of-type(1) {
         margin: 0 16px 0;
     }
 
-    .card__description:nth-of-type(3) {
+    .place__description:nth-of-type(3) {
         padding: 0;
     }
 }

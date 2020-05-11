@@ -1,4 +1,11 @@
-.card {
+@import url('./__title/place__title.css');
+@import url('./__image/place__images.css');
+@import url('./__url/place__url.css');
+@import url('./__heading-link/place__heading-link.css');
+@import url('./__link/place__link.css');
+@import url('./__description/place__description.css');
+
+.place {
     margin: auto auto 80px;
     max-width: 984px;
     display: grid;
@@ -9,20 +16,20 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .card {
+    .place {
         max-width: 928px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .card {
+    .place {
         margin: 72px 24px 0;
         max-width: 720px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .card {
+    .place {
         margin: 0 0 48px;
         max-width: 320px;
         display: flex;

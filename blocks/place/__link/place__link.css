@@ -1,4 +1,4 @@
-.card__link {
+.place__link {
     max-width: 456px;
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
@@ -9,7 +9,7 @@
     color: #fff;
 }
 
-.card__link:hover {
+.place__link:hover {
     cursor: pointer;
     opacity: 0.8;
 }

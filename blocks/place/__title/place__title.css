@@ -1,4 +1,4 @@
-.card__title {
+.place__title {
     margin: 0 0 48px;
     max-width: 460px;
     grid-area: gt;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .card__title {
+    .place__title {
         margin: 0;
         max-width: 440px;
         font-size: 72px;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .card__title {
+    .place__title {
         margin: 0 0 48px;
         max-width: 340px;
         font-size: 42px;
@@ -29,7 +29,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .card__title {
+    .place__title {
         margin: 0 16px 32px 16px;
         width: 288px;
         font-size: 32px;

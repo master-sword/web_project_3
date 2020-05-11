@@ -1,11 +1,11 @@
-.card__url {
+.place__url {
     margin: 0 0 48px;
     align-self: end;
     grid-area: gu;
 }
 
 @media screen and (max-width: 1024px) {
-    .card__url {
+    .place__url {
         margin: 0;
         padding: 0;
         max-width: 352px;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .card__url {
+    .place__url {
         margin: 0;
         max-width: 352px;
         align-self: start;
@@ -22,7 +22,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .card__url {
+    .place__url {
         display: none;
     }
 }

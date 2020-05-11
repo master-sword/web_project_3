@@ -1,23 +1,23 @@
-.card__paragraph {
+.place__paragraph {
     max-width: 484px;
     grid-area: gd;
 }
 
 @media screen and (max-width: 1024px) {
-    .card__paragraph {
+    .place__paragraph {
         margin: 48px 0 0;
         max-width: 456px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .card__paragraph {
+    .place__paragraph {
         max-width: 352px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .card__paragraph {
+    .place__paragraph {
         margin: 0;
         max-width: 288px;
         display: flex;
