@@ -1,11 +1,27 @@
 .cover__title {
-    margin: 51px 0 32px 0;
+    margin: 283px 264px 0;
     text-align: center;
     z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+        margin: 233px 184px 0;
+        width: 656px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .cover__title {
+        margin: 153px 56px 0;
+        width: 656px;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .cover__title {
         margin: 51px 0 16px 0;
+        width: 288px;
     }
 }

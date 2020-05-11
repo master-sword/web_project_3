@@ -15,6 +15,7 @@
     .photo-grid__item {
         max-width: 352px;
         height: 264px;
+        gap: 16px 16px;
     }
 
 }

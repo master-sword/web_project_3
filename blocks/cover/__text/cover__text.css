@@ -1,10 +1,24 @@
 .cover__text {
+    margin: 32px 352px 0;
     padding: 0;
     width: 320px;
     text-align: center;
     font-size: 18px;
     line-height: 22px;
     z-index: 2;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__text {
+        margin: 32px 352px 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .cover__text {
+        margin: 32px 224px 0;
+    }
 }
 
 @media screen and (max-width: 320px) {
