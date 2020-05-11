@@ -25,12 +25,13 @@
 
 @media screen and (max-width: 320px) {
     .lead__subtitle {
-        margin: 16px auto 0;
+        margin: 16px 16px 0;
         padding: 0;
         max-width: 288px;
-        height: 40px;
         font-size: 16px;
         line-height: 20px;
+        font-style: normal;
+        font-weight: 400;
         text-align: center;
     }
 }

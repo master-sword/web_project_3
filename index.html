@@ -2,25 +2,23 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The USA</title>
-        <link rel="stylesheet" href="./styles/index.css">
+        <link rel="stylesheet" href="./pages/index.css">
     </head>
     <body class="page">
-        <div class="page__content">
             <header class="header">
-                <img class="logo_place_header" src="./images/logo.png" alt="The USA">
-                <div class="header__lang-link">
-                    <a class="header__link" href="#">En</a>
-                    <a class="header__link" href="#">Es</a>
-                </div>
+                <img class="logo logo_place_header" src="./images/logo.png" alt="The USA">
+                <ul class="header__lang-link">
+                    <li><a class="header__link header__link_active" href="#">En</a></li>
+                    <li><a class="header__link" href="#">Es</a></li>
+                </ul>
             </header>
-        </div>
             <main>
                 <section class="lead">
                     <h1 class="lead__title">From Portland to Portland</h1>
-                    <p class="lead__subtitle">An epic bicycle journey from Portland, ME to Portland, OR</p>
-                    <div class="lead__image"></div>
+                    <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
+                    <img class="lead__image" src="./images/lead-mountains.jpg" alt="Mountain View">
                     <p class="lead__caption">Your journey starts here</p>
                 </section>
                 
@@ -29,10 +27,10 @@
                     <p class="intro__subtitle">That's exacly what we have arranged for you via this travel story</p>
                     <p class="intro__text">Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.</p>
                     <ul class="intro__list">
-                        <li>Distance (miles) 3,644</li>
-                        <li>Travel time (days) 22</li>
-                        <li>Highest point (feet) 9,613</li>
-                        <li>Lowest point (feet) -3</li>
+                        <li> <span class="intro__list_bold">Distance (miles)&nbsp;</span>3,644</li>
+                        <li> <span class="intro__list_bold">Travel time (days)&nbsp;</span>22</li>
+                        <li> <span class="intro__list_bold">Highest point (feet)&nbsp;</span>9,613</li>
+                        <li> <span class="intro__list_bold">Lowest point (feet)&nbsp;</span> -3</li>
                     </ul>
                 </section>
                    
@@ -132,13 +130,10 @@
                 </section>
                 
                 <section class="cover">
-                    <div class="page__content">
                         <a class="cover__item" href="https://www.nps.gov/nr/travel/route66/maps66.html" target="_blank">
                             <h2 class="cover__title section-title">Historic Route 66</h2>
                             <p class="cover__text">The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe</p>
                         </a>
-
-                    </div>
                 </section>
             </main>
             <footer class="footer">

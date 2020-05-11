@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 320px) {
     .card__paragraph {
-        margin: 0 0 72px;
+        margin: 0;
         max-width: 288px;
         display: flex;
         flex-direction: column;
