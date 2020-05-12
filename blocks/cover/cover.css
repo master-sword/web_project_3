@@ -3,17 +3,63 @@
 @import url('./__text/cover__text.css');
 
 .cover {
-    margin: 92px 0 0;
+    margin: 92px auto 0;
+    background-image: url('../../images/cover-route-66.jpg');
+    max-width: 1184px;
+    height: 740px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.cover::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #2a2c2f;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
 }
 
-@media screen and (max-width: 768px) {
+.cover:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
     .cover {
-        margin: 88px 0 0;
+        margin-top: 88px;
+        width: 1024px;
+        height: 640px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .cover {
-        margin: 16px 0 0;
+        margin-top: 88px;
+        width: 100vw;
+        height: calc(100vw * (480 / 768));
+     }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .cover {
+        margin-top: 88px;
+        width: 100vw;
+        height: calc(100vw * (200 / 320));
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover {
+        margin-top: 64px;
+        width: 320px;
+        height: 200px;
     }
 }

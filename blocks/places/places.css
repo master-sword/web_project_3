@@ -1,17 +1,49 @@
+@import url('./__list/places__list.css');
+
 .places {
-    margin: 92px auto 0;
+    margin: 0;
+    padding: 92px 148px 0;
     max-width: 984px;
-    list-style: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-device-width: 1024px) and (max-device-width: 1279px) {
     .places {
-        margin: 88px auto 0;
+        padding-right: 48px;
+        padding-left: 48px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media only screen and (min-device-width: 769px) and (max-device-width: 1023px) {
     .places {
-        margin: 64px auto 0;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+}
+@media only screen and (min-device-width: 568px) and (max-device-width: 768px) {
+    .places {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+}
+
+@media only screen and (min-device-width: 400px) and (max-device-width: 567px) {
+    .places {
+        padding-left: 24px;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-device-width: 331px) and (max-device-width: 399px) {
+    .places {
+        padding-left: 16px;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-device-width: 250px) and (max-device-width: 330px) {
+    .places {
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0;
     }
 }

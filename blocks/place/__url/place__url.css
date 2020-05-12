@@ -1,28 +1,6 @@
 .place__url {
-    margin: 0 0 48px;
-    align-self: end;
-    grid-area: gu;
-}
-
-@media screen and (max-width: 1024px) {
-    .place__url {
-        margin: 0;
-        padding: 0;
-        max-width: 352px;
-        align-self: end;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .place__url {
-        margin: 0;
-        max-width: 352px;
-        align-self: start;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__url {
-        display: none;
-    }
+    font-size: 18px;
+    line-height: 1.5;
+    text-decoration-line: underline;
+    color: #fff;
 }
