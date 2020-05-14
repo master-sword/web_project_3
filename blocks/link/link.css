@@ -1,6 +1,7 @@
 .link:hover {
     cursor: pointer;
     text-decoration: none;
+    transition: 0.5s;
     opacity: 0.8;
     color: #fff;
   }

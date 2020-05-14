@@ -6,7 +6,7 @@
     align-self: center;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {
     .lead__image {
         margin-top: 56px;
         max-width: 928px;
@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .lead__image {
         margin-top: 56px;
         max-width: 928px;
@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .lead__image {
         margin-top: 56px;
         width: 100vw;
@@ -30,7 +30,7 @@
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .lead__image {
         margin-top: 40px;
         width: 100vw;

@@ -10,19 +10,19 @@
     color:#fff;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
     .lead__caption {
         margin-left: 28px;
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .lead__caption {
         margin-left: 24px;
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .lead__caption {
         margin-left: 24px;
     }

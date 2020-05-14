@@ -12,13 +12,13 @@
     text-align: left;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .intro {
         margin: 92px 48px 0;
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .intro {
         margin: 88px 24px 0;
         max-width: 720px;

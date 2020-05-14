@@ -7,13 +7,13 @@
     color: #fff;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .intro__title {
         max-width: 690px;
     }
 }
 
-@media screen and (max-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .intro__title {
         max-width: 720px;
         width: 100%;

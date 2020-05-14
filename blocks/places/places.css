@@ -40,7 +40,7 @@
     }
 }
 
-@media only screen and (max-width: 319px) {
+@media only screen and (max-width: 320px) {
     .places {
         padding-right: 0;
         padding-left: 0;
