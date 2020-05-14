@@ -8,17 +8,16 @@
     color: #fff;
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .lead__title {
         margin-top: 50px;
-        max-width: calc(100vw - 48px);
-        width: calc(100vw * 550 / 767);
+        width: calc(100vw * 720 / 767);
         font-size: calc(100vw * 96 / 767);
     }
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
     .lead__title {
         margin-top: 50px;
         max-width: 288px;

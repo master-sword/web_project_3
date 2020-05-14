@@ -3,7 +3,7 @@
 @import url('./__text/cover__text.css');
 
 .cover {
-    margin: 92px auto 0;
+    margin: 92px 48px 0;
     background-image: url('../../images/cover-route-66.jpg');
     max-width: 1184px;
     height: 740px;
@@ -32,34 +32,34 @@
     opacity: 0.8;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
     .cover {
-        margin-top: 88px;
-        width: 1024px;
-        height: 640px;
+        margin: 88px 0 0;
+        width: 100vw;
+        height: calc(100vw * (740 / 1280));
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .cover {
-        margin-top: 88px;
+        margin: 88px 0 0;
         width: 100vw;
-        height: calc(100vw * (480 / 768));
+        height: calc(100vw * (640 / 1024));
      }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .cover {
-        margin-top: 88px;
+        margin: 88px 0 0;
         width: 100vw;
-        height: calc(100vw * (200 / 320));
+        height: calc(100vw * (480 / 768));
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 319px) {
     .cover {
-        margin-top: 64px;
-        width: 320px;
-        height: 200px;
+        margin: 64px 0 0;
+        width: 100vw;
+        height: calc(100vw * (200 / 320));
     }
 }

@@ -7,22 +7,16 @@
     color: #fff;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .lead__subtitle {
-        max-width: 620px;
-    }
-}
-
-@media screen and (max-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .lead__subtitle {
         margin: 16px auto;
-        width: calc(100vw * (426 / 620));
-        font-style: calc(100vw * (30 / 767));
-        line-height: 1.2;
+        width: calc(100vw * (620 / 767));
+        font-size: calc(100vw * (30 / 767));
+        line-height: calc(100vw * (36 / 767));
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
     .lead__subtitle {
         margin: 16px auto;
         max-width: 288px;

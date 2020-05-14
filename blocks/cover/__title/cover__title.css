@@ -9,16 +9,18 @@
     color: #fff;
 }
 
-@media screen (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .cover__title {
-        width: calc(100vw * (656 / 768));
+        width: calc(100vw * (656 / 1024));
+        font-size: calc(100vw * (72 / 1024));
+
     }
 }
 
-@media screen and (min-width:426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .cover__title {
-        width: calc(100vw * (288 / 320));
-        font-size: calc(100vw * (32 / 320));
+        width: calc(100vw * (656 / 768));
+        font-size: calc(100vw * (72 / 768));
     }
 }
 

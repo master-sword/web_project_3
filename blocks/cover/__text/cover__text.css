@@ -8,14 +8,14 @@
     color: #fff;
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .cover__text {
-        font-size: calc(100vw * (18 / 768));
+        font-size: calc(100vw * (18 / 1024));
     }
 }
 
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .cover__text {
         margin: 16px auto;
         font-size: calc(100vw * (18 / 768));
