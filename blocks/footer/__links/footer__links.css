@@ -8,7 +8,14 @@
 
 @media screen and (max-width: 768px) {
     .footer__links {
-        margin: 0;
+        margin: 0 auto;
+    }
+}
+
+/* adding left and right space to prevent sticking to screen's edges */
+@media screen and (max-width: 425px) {
+    .footer__links {
+        margin-left: 8px;
     }
 }
 
