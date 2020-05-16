@@ -6,9 +6,9 @@
     list-style: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 567px) {
     .footer__links {
-        margin: 0 auto;
+        margin: 0 0 0 16px;
     }
 }
 
@@ -16,6 +16,7 @@
 @media screen and (max-width: 425px) {
     .footer__links {
         margin-left: 8px;
+        font-size: 12px;
     }
 }
 

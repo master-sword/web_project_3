@@ -5,22 +5,22 @@
 
 @media screen and (max-width: 1279px) {
     .place__image {
-        width: 440px;
-        height: 440px;     
+        max-width: 440px;
+        max-height: 440px;     
     }
 }
 
 @media only screen and (max-width: 1023px) {
     .place__image {
-        width: 400px;
-        height: 400px;
+        max-width: 400px;
+        max-height: 400px;
     }
 }
 
 @media only screen and (max-width: 899px) {
     .place__image {
-        width: 340px;
-        height: 340px;
+        max-width: 340px;
+        max-height: 340px;
     }
 }
 
@@ -33,7 +33,7 @@
 
 @media only screen and (max-width: 567px) {
     .place__image {
-        width: 320px;
-        height: 320px;        
+        max-width: 320px;
+        max-height: 320px;        
     }
 }

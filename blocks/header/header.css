@@ -27,10 +27,9 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 320px) {
     .header {
         margin: 20px 16px 0;
         padding: 0;
-        max-width: 288px;
     }
 }

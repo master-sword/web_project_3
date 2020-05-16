@@ -17,12 +17,6 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .footer__author {
-        margin: 0 24px 0;
-    }
-}
-
 /* adding left and right space to prevent sticking to screen's edges */
 @media screen and (max-width: 425px) {
     .footer__author {
